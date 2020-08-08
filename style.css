@@ -16,13 +16,93 @@ body{
     width: 20em;
     height: 100vh;
 }
-
+#black{
+  width:402px;
+  height:62px;
+  background-color:#000000;
+  border-radius:50px;
+  margin:70px 20px 30px 30px;
+  box-sizing: border-box;
+}
+div#black > p{
+  color:#FFFFFF;
+  font-size:25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+}
 .to-do-things{
     background: #FFFBFB;
     border-radius: 10px;
-    width: 17em;
-    height: 70vh;
+    width: 402px;
+    height: 762px;
     margin: auto;
+}
+.to-do-things > h3{
+  font-size: 25px;
+  padding:20px 20px 20px 60px;
+}
+.to-do-things > ul{
+  list-style-type:none;
+}
+.to-do-things li{
+  width:284px;
+  height:74px;
+  padding:10px;
+  text-align:center;
+  border-radius:10px;
+  margin:20px auto;
+  font-size: 20px;
+  font-weight:bold;
+}
+.div{
+  display:flex;
+  width:284px;
+  height:74px;
+  margin: 20px auto;
+  border-radius: 10px;
+  justify-content:center;
+  align-content:center;
+  box-sizing:border-box;
+}
+.div p{
+  margin:5px 2px;
+  padding:5px;
+}
+.class1{
+  text-align: right;
+  margin-left:10px;
+  padding-right:10px;
+}
+.class2{
+  margin-right: 10px;
+}
+.tsize{
+  font-size: 8px;
+}
+.tbold{
+  font-weight:bold;
+  font-size:15px;
+}
+.grey{
+  color:#828282;
+}
+#item1{
+  background-color: rgba(47, 128, 237, 0.1);
+  color:#2F80ED;
+}
+#item2{
+  background-color: rgba(155, 81, 224, 0.1);
+  color:#9B51E0;
+}
+#item3{
+  background-color: rgba(235, 87, 87, 0.1);
+  color:#EB5757;
+}
+#item4{
+  background-color: rgba(255, 190, 11, 0.1);
+  color:#FFBE0B;
 }
 .calendar{
     background: rgba(0, 0, 0, 0.1);
