@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F2C94C;
+    /* background-image: url(./Vector.png, ./); */
+    background-repeat: no-repeat;
+    background-position: 70vh;
+    background-size: contain;
+}
+/* font-family: 'Roboto', sans-serif; */
+.left_menu{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 20em;
+    height: 100vh;
+}
+.to-do-things{
+    background: #FFFBFB;
+    border-radius: 10px;
+    width: 17em;
+    height: 70vh;
+    margin: auto;
+}
+.calendar{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 17em;
+    height: 70vh;
+    margin: auto;
+}
+#whole-thing{
+    display: flex;
+    justify-content: space-between;
+}
